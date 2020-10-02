@@ -1,5 +1,5 @@
 
-.container{
+.container1{
     width: 100%;
     height:auto;
     background:url("fin.jpg");
@@ -19,6 +19,7 @@
     border-style: solid;
     
     border-color: white;
+    border-radius:10px;
     border-width: .5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -33,6 +34,7 @@
     
     height: 60vh;
     width: auto;
+    border:1px solid white;
     border-radius: 10px;
     box-shadow: 0 24px 32px 0;
     animation: text 5s 1;
@@ -49,14 +51,20 @@
     
     height: auto;
     width: 80%;
-    border-radius: 15px;        
+    border:2px solid #141414;
+    
+    border-radius: 10px; 
+    margin-bottom:3%;       
 }
 .text h3{
-    color: white;
+    color: #A5F4E0;
     
     font-size: 1.3vw;
+    letter-spacing: 0.2px;
+    word-spacing: 0.5px;
    
     font-family: 'Raleway', sans-serif;
+    text-shadow: 0.5px 0.5px;
 
     animation: text 5s 1;
 }
@@ -136,9 +144,24 @@ i:hover{
 
 @keyframes text{
     0%{
-        color: grey;
+        color: #ffffff;
        margin-bottom: 85px;
        
     }
+
+}
+.fab:hover{
+    transition:0.2s ease;
+    background:#ffffff;
+    color:#141414;
+    transform:translate(3px,3px);
+}
+footer{
+    font-size: 140%;
+    text-shadow: 0.5px 0.5px;
+     font-family: 'Raleway', sans-serif;
+     letter-spacing: 0.2px;
+    word-spacing: 0.5px;
+    
 
 }
